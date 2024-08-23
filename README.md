@@ -1,2 +1,2 @@
 Hi baby
-!Baby(images/example.png)
+!Baby(images/IMG_1012.jpeg)
