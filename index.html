@@ -3,65 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stake Website Clone</title>
+    <title>Casino Fun</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="header-left">
-            <button class="menu-btn">&#9776;</button>
-            <div class="logo">Stake</div>
-        </div>
-        <div class="header-right">
-            <button class="sign-in-btn">Sign In</button>
-            <button class="register-btn">Register</button>
-        </div>
+        <h1>Welcome to Casino Fun!</h1>
     </header>
-    
-    <div class="sidebar">
-        <ul>
-            <li>Favourites</li>
-            <li>Recent</li>
-            <li>Challenges</li>
-            <li>My Bets</li>
-            <li>Games</li>
-            <li>Stake Originals</li>
-            <li>Stake Exclusives</li>
-            <!-- Add more menu items as necessary -->
-        </ul>
-    </div>
-    
     <main>
-        <div class="promos">
-            <div class="promo">Daily Races</div>
-            <div class="promo">Weekly Raffle</div>
-            <div class="promo">Conquer the Casino</div>
-        </div>
-        <div class="game-section">
-            <h2>Stake Originals</h2>
-            <div class="games">
-                <div class="blackjack">
-                    <img src="game1.png" alt="BLACKJACK
-                    <p>DICE</p>
-                </div>
-                <div class="roulette">
-                    <img src="game2.png" alt="ROULETTE">
-                    <p>CRASH</p>
-                </div>
-                <div class="mines">
-                    <img src="game3.png" alt="MINES">
-                    <p>PLINKO</p>
-                </div>
-                <div class="plinko">
-                    <img src="game4.png" alt="PLINKO">
-                    <p>MINES</p>
-                </div>
-                <div class="baccarat">
-                    <img src="game5.png" alt="BACCARAT">
-                    <p>LIMBO</p>
-                </div>
+        <!-- Slot Machine -->
+        <div id="slot-machine">
+            <h2>Slot Machine</h2>
+            <div id="slot-reels">
+                <span id="reel1"></span>
+                <span id="reel2"></span>
+                <span id="reel3"></span>
             </div>
+            <button onclick="spinSlots()">Spin</button>
+            <p id="slot-result"></p>
+        </div>
+
+        <!-- Roulette Wheel -->
+        <div id="roulette">
+            <h2>Roulette Wheel</h2>
+            <div id="wheel">
+                <div id="ball"></div>
+            </div>
+            <button onclick="spinRoulette()">Spin</button>
+            <p id="roulette-result"></p>
+        </div>
+
+        <!-- Blackjack -->
+        <div id="blackjack">
+            <h2>Blackjack</h2>
+            <div id="cards">
+                <div id="dealer-hand"></div>
+                <div id="player-hand"></div>
+            </div>
+            <button onclick="dealCards()">Deal Cards</button>
+            <p id="blackjack-result"></p>
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
