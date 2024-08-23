@@ -1,2 +1,2 @@
 Hi baby
-https://media.discordapp.net/attachments/945287946364387369/1276530614761291796/IMG_1012.jpg?ex=66c9dd47&is=66c88bc7&hm=3bfd0494a68160da19bd42c58fac0c5af18c839013f69c094306f48d40f6676d&
+![image](https://github.com/user-attachments/assets/1a5339ee-aaa0-4036-9b17-f37574fd1f10)
